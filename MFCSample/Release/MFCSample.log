@@ -1,0 +1,71 @@
+﻿  stdafx.cpp
+  CAnkenDetailWindow.cpp
+  CAnkenListWindow.cpp
+CAnkenListWindow.cpp(85): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  CAnkenReadWindow.cpp
+  CAnkenRegistWindow.cpp
+  CAnkenSearchWindow.cpp
+CAnkenSearchWindow.cpp(241): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+  CCmpData.cpp
+  CCmpnRegistWindow.cpp
+CCmpnRegistWindow.cpp(85): warning C4101: 'nCmpnID': unreferenced local variable
+  CCmpWindow.cpp
+CCmpWindow.cpp(191): warning C4101: 'lpcSequence': unreferenced local variable
+  CCompanyData.cpp
+  CDBAccess.cpp
+CDBAccess.cpp(32): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+CDBAccess.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+CDBAccess.cpp(1232): warning C4129: 'S': unrecognized character escape sequence
+CDBAccess.cpp(1243): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+CDBAccess.cpp(1202): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1293): warning C4101: 'res': unreferenced local variable
+CDBAccess.cpp(1296): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1295): warning C4101: 'i': unreferenced local variable
+CDBAccess.cpp(1294): warning C4101: 'nFields': unreferenced local variable
+CDBAccess.cpp(1416): warning C4101: 'res': unreferenced local variable
+CDBAccess.cpp(1419): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1418): warning C4101: 'i': unreferenced local variable
+CDBAccess.cpp(1417): warning C4101: 'nFields': unreferenced local variable
+CDBAccess.cpp(1567): warning C4101: 'res': unreferenced local variable
+CDBAccess.cpp(1570): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1569): warning C4101: 'i': unreferenced local variable
+CDBAccess.cpp(1568): warning C4101: 'nFields': unreferenced local variable
+CDBAccess.cpp(1709): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+CDBAccess.cpp(1668): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1804): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+CDBAccess.cpp(1762): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1761): warning C4101: 'i': unreferenced local variable
+CDBAccess.cpp(1897): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+CDBAccess.cpp(1853): warning C4101: 'j': unreferenced local variable
+CDBAccess.cpp(1852): warning C4101: 'i': unreferenced local variable
+CDBAccess.cpp(1851): warning C4101: 'nFields': unreferenced local variable
+  CLOGIN.cpp
+  CMainWindow.cpp
+  CProjectData.cpp
+  CProjectSearchData.cpp
+  CSkillData.cpp
+  CSkillRegistWindow.cpp
+CSkillRegistWindow.cpp(83): warning C4101: 'nSkillID': unreferenced local variable
+  CSkillSelectWindow.cpp
+  CSkillWindow.cpp
+CSkillWindow.cpp(200): warning C4101: 'lpcSequence': unreferenced local variable
+  CUserData.cpp
+  CUserRegistWindow.cpp
+  Compiling...
+  CUserWindow.cpp
+CUserWindow.cpp(157): warning C4101: 'lpcSequence': unreferenced local variable
+  MFCSample.cpp
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\kensyu_2\Documents\Visual Studio 2015\Projects\MFCSample\Release\MFCSample.exe) does not match the Linker's OutputFile property value (C:\Users\kensyu_2\Documents\Visual Studio 2015\Projects\MFCSample\Release\案件管理システム.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(MFCSample) does not match the Linker's OutputFile property value (案件管理システム). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Generating code
+  All 1393 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MFCSample.vcxproj -> C:\Users\kensyu_2\Documents\Visual Studio 2015\Projects\MFCSample\Release\MFCSample.exe
+  MFCSample.vcxproj -> C:\Users\kensyu_2\Documents\Visual Studio 2015\Projects\MFCSample\Release\MFCSample.pdb (Full PDB)
